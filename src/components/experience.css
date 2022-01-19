@@ -1,0 +1,16 @@
+.ExperienceStyle{
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+}
+.h1{
+    left:50px;
+    top:0;
+}
+.Experience-Image{
+    height: 100vh;
+    position: fixed;
+    top:0;
+    left: 0;
+    padding-bottom: 20px;
+}
