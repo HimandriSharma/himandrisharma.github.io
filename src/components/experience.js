@@ -1,0 +1,13 @@
+import './experience.css';
+import side from '../images/Side.png';
+
+function Experience() {
+  return (
+    <div className="ExperienceStyle">
+      <img alt="" src={side} className="Experience-Image"/>
+      <h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1><h1>experience 1</h1>
+    </div>
+  );
+}
+
+export default Experience;

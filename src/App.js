@@ -1,10 +1,12 @@
 /* eslint-disable no-lone-blocks */
 import './App.css';
+import Experience from './components/experience';
+import Home from './components/home';
 
 function App() {
   return (
     <div className="App">
-      hi
+      <Experience/>
     </div>
   );
 }
