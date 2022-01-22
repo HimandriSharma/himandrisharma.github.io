@@ -1,7 +1,7 @@
 .ExperienceStyle{
     height: 100%;
     width: 100%;
-    background-color: pink;
+    background-color: rgb(243, 217, 238);
 }
 .h1{
     left:50px;
@@ -9,8 +9,7 @@
 }
 .Experience-Image{
     height: 100vh;
-    position: fixed;
+    position: sticky;
     top:0;
-    left: 0;
-    padding-bottom: 20px;
+    left: 5vw;
 }

@@ -1,16 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Urbanist:wght@300&display=swap');
+
 .HomeStyle{
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(243, 217, 238);
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 25%;
+}
+.subText{
+  font-size: 3vmin;
+  font-family: 'Urbanist', sans-serif;
+  margin:3px;
+}
+.paraText{
+  font-size: 2.5vmin;
+  font-family: 'Urbanist', sans-serif;
+  margin:3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 .Image{
-    height: 150vh;
-    position: fixed;
-    top:0;
-    left: -60vh;
-    padding-bottom: 20px;
-    pointer-events: none;
+  height: 125vmin;
+  position: absolute;
+  top:-15%;
+  left: -30%;
+  pointer-events: none;
 }
 @media (prefers-reduced-motion: no-preference) {
     .Image {

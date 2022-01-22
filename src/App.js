@@ -2,12 +2,23 @@
 import './App.css';
 import Experience from './components/experience';
 import Home from './components/home';
+import { useWindowSize } from 'react-use';
+import Title from './AnimatedText/Title';
 
 function App() {
+  const size = useWindowSize();
+  const isDesktop = size.width > 1800 ;
   return (
-    <div className="App">
-      <Experience/>
-    </div>
+    <>
+    {isDesktop && (
+      <div className="App">
+        <Home />
+      </div>
+    )}
+    {!isDesktop && (
+      <Title text="CSS HOVER MASK"/>
+    )}
+    </>
   );
 }
 
