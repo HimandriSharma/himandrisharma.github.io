@@ -4,15 +4,14 @@ import Title from '../AnimatedText/Title';
 
 function Home() {
   return (
-    <div>
     <div className="HomeStyle">
-      <img alt="" src={side} className="Image"/>
+      <div className="navbar"><a href="/" style={{textDecoration:"none"}}>About</a>&nbsp;&nbsp;&nbsp;<a href="/" style={{textDecoration:"none"}}>Contact</a> </div>
+      <img alt="" src={side} className="HomeImage"/>
       <div className="Text">
-        <div className="subText">Hello 👋🏼, I am</div>
+        <div className="HomeSubText">Hello 👋🏼, I am</div>
         <Title text="Himandri"/>
-        <div className="paraText">I am a Front-End Developer who loves connecting with people<br/> through tech communities and learn new tech<br/> stacks to build cool things!</div>
+        <div className="HomeParaText">I am a Front-End Developer who loves connecting with people<br/> through tech communities and learn new tech<br/> stacks to build cool things!</div>
       </div>
-    </div>
     </div>
   );
 }

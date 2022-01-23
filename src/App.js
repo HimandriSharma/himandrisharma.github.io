@@ -4,10 +4,11 @@ import Experience from './components/experience';
 import Home from './components/home';
 import { useWindowSize } from 'react-use';
 import Title from './AnimatedText/Title';
+import Contact from './components/contact';
 
 function App() {
   const size = useWindowSize();
-  const isDesktop = size.width > 1800 ;
+  const isDesktop = size.width/size.height > 1.67 ;
   return (
     <>
     {isDesktop && (
