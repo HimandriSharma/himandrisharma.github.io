@@ -1,23 +1,26 @@
 /* eslint-disable no-lone-blocks */
 import './App.css';
-import Experience from './components/experience';
-import Home from './components/home';
+import Experience from './components/Desktop/experience';
+import Home from './components/Desktop/home';
+import NoneHome from './components/None/NoneHome';
 import { useWindowSize } from 'react-use';
 import Title from './AnimatedText/Title';
-import Contact from './components/contact';
+import Contact from './components/Desktop/contact';
+import NoneContact from './components/None/NoneContact';
 
 function App() {
   const size = useWindowSize();
   const isDesktop = size.width/size.height > 1.67 ;
+  const isMobile = size.width/size.height < 0.88 ;
   return (
     <>
     {isDesktop && (
       <div className="App">
-        <Home />
+        <Contact />
       </div>
     )}
-    {!isDesktop && (
-      <Title text="CSS HOVER MASK"/>
+    {!isDesktop && !isMobile && (
+      <NoneContact />
     )}
     </>
   );

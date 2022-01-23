@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Urbanist:wght@300&display=swap');
+
+.NoneContactStyle{
+  text-align: center;
+}
+.NoneContactText{
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: rgb(243, 217, 238);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.NoneContactSubText{
+  font-size: 5vmin;
+  font-family: 'Bungee Shade', cursive;
+  margin:10px;
+  font-weight: bold;
+}
+.NoneContactParaText{
+  font-size: 3vmin;
+  font-family: 'Urbanist', sans-serif;
+  margin:3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.NoneContactAlign{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

@@ -1,5 +1,5 @@
 import './experience.css';
-import side from '../images/Side.png';
+import side from '../../images/Side.png';
 
 function Experience() {
   return (

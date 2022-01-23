@@ -1,0 +1,15 @@
+.NoneExperienceStyle{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(243, 217, 238);
+}
+.h1{
+    left:50px;
+    top:0;
+}
+.NoneExperience-Image{
+    height: 100vh;
+    position: sticky;
+    top:0;
+    left: 5vw;
+}

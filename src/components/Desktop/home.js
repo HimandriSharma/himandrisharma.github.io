@@ -1,6 +1,6 @@
 import './home.css';
-import side from '../images/GameBoard.svg';
-import Title from '../AnimatedText/Title';
+import side from '../../images/GameBoard.svg';
+import Title from '../../AnimatedText/Title';
 
 function Home() {
   return (

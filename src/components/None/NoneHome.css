@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Urbanist:wght@300&display=swap');
+
+.NoneHomeStyle{
+  text-align: center;
+}
+.NoneText{
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: rgb(243, 217, 238);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.NoneHomeSubText{
+  font-size: 3vmin;
+  font-family: 'Urbanist', sans-serif;
+  margin:3px;
+}
+.NoneHomeParaText{
+  font-size: 2.5vmin;
+  font-family: 'Urbanist', sans-serif;
+  margin:3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
