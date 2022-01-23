@@ -1,6 +1,4 @@
 import './NoneContact.css';
-import HollowBoard from '../../images/GameBoardHollow.svg';
-import MyImage from '../../images/MyImage.png';
 import GithubLogo from '../../images/GitHub.png';
 import TwitterLogo from '../../images/Twitter.png';
 import LinkedInLogo from '../../images/LinkedIn.png';

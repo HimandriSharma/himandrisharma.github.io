@@ -1,5 +1,4 @@
 import './NoneHome.css';
-import side from '../../images/GameBoard.svg';
 import Title from '../../AnimatedText/Title';
 
 function NoneHome() {
