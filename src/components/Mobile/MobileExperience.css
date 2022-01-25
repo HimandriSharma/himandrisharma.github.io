@@ -1,0 +1,10 @@
+.MobileExperienceStyle{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(243, 217, 238);
+}
+.MobileExperience-Image{
+    height: 100vh;
+    position: sticky;
+    top:0;
+}

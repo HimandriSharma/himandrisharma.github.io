@@ -1,12 +1,13 @@
 /* eslint-disable no-lone-blocks */
 import './App.css';
 import Experience from './components/Desktop/experience';
-import Home from './components/Desktop/home';
-import NoneHome from './components/None/NoneHome';
+// import Home from './components/Desktop/home';
+// import NoneHome from './components/None/NoneHome';
 import { useWindowSize } from 'react-use';
-import Title from './AnimatedText/Title';
-import Contact from './components/Desktop/contact';
-import NoneContact from './components/None/NoneContact';
+// import Title from './AnimatedText/Title';
+// import Contact from './components/Desktop/contact';
+import NoneExperience from './components/None/NoneExperience';
+import MobileExperience from './components/Mobile/MobileExperience';
 
 function App() {
   const size = useWindowSize();
@@ -16,11 +17,16 @@ function App() {
     <>
     {isDesktop && (
       <div className="App">
-        <Contact />
+        <Experience />
+      </div>
+    )}
+    {isMobile && (
+      <div>
+        <MobileExperience />
       </div>
     )}
     {!isDesktop && !isMobile && (
-      <NoneContact />
+      <NoneExperience />
     )}
     </>
   );
