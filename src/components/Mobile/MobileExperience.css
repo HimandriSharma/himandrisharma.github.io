@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Cookie&family=Urbanist:wght@300&display=swap');
 .MobileExperienceStyle{
     height: 100%;
     width: 100%;
     background-color: rgb(243, 217, 238);
 }
-.MobileExperience-Image{
-    height: 100vh;
-    position: sticky;
-    top:0;
+.MobileExperienceHeading{
+    font-size: 10vmin;
+    left:50px;
+    top:10px;
+    font-family: 'Cookie', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
