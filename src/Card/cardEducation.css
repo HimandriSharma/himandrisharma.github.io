@@ -2,7 +2,7 @@
 
 .CardEducationStyle{
     height: fit-content;
-    width: fit-content;
+    width: 50vw;
     padding: 10px;
     margin: 10px;
     border: solid;
@@ -13,6 +13,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
 }
 .CardEducationDate{
     font-size: 3vmin;

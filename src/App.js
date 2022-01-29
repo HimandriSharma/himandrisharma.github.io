@@ -1,11 +1,10 @@
 /* eslint-disable no-lone-blocks */
 import './App.css';
-import Experience from './components/Desktop/experience';
 import MobileHome from './components/Mobile/MobileHome';
 import NoneHome from './components/None/NoneHome';
-
-
 import { useWindowSize } from 'react-use';
+import Education from './components/Common/education';
+import Skills from './components/Common/skills';
 
 function App() {
   const size = useWindowSize();
@@ -13,9 +12,9 @@ function App() {
   const isMobile = size.width/size.height < 0.88 ;
   return (
     <>
-    {isDesktop && (
+    {/* {isDesktop && (
       <div className="App">
-        <Experience />
+        <Education />
       </div>
     )}
     {isMobile && (
@@ -25,7 +24,8 @@ function App() {
     )}
     {!isDesktop && !isMobile && (
       <NoneHome />
-    )}
+    )} */}
+    <Skills />
     </>
   );
 }

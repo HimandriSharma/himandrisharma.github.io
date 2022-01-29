@@ -7,7 +7,9 @@ function Skills() {
       <div className="SkillsContent">
         <div className="SkillsHeading">Skills</div>
         <div className="SkillsSpecific">
-            <CardSkill title="Skills" text={["skill1","skill2"]}/>
+            <CardSkill title="Languages" text={["JavaScript/Typescript","HTML","Java","CSS","XML","Markdown"]}/>
+            <CardSkill title="Frameworks" text={["ReactJs","NextJS","NodeJS","Flutter","Mocha/Chai"]}/>
+            <CardSkill title="Tools" text={["GitHub CLI","VS Code"]}/>
         </div>
       </div>
     </div>

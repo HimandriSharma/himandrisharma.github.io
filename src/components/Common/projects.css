@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Cookie&family=Urbanist:wght@300&display=swap');
 .ProjectsStyle{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-color: rgb(243, 217, 238);
     display: flex;
     flex-direction: column;
