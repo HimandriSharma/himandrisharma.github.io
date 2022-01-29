@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Urbanist:wght@300&display=swap');
+
+.CardProjectStyle{
+    height: fit-content;
+    width: fit-content;
+    border: solid;
+    border-color: rgb(95, 95, 95);
+    border-width: 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin:10px;
+}
+.CardProjectText{
+    color: rgb(51, 51, 51);
+    font-family: 'Urbanist', sans-serif;
+    font-size: 3vmin;
+}
+
+.CardProjectHeading{
+    color: rgb(51, 51, 51);
+    font-size: 4vmin;
+    font-family: 'Urbanist', sans-serif;
+    margin: 10px;
+}

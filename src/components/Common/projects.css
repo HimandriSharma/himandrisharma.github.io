@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Cookie&family=Urbanist:wght@300&display=swap');
+.ProjectsStyle{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(243, 217, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ProjectsHeading{
+    font-size: 10vmin;
+    font-family: 'Cookie', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ProjectsContent{
+    font-family: 'Urbanist',cursive;
+}
