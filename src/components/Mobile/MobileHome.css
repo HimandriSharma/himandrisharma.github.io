@@ -10,6 +10,14 @@
     position: relative;
     overflow: hidden;
 }
+.MobileNavbar{
+  position: fixed;
+  bottom:10px;
+  right: 10px;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 4vmin;
+  font-weight: bold;
+}
 .MobileHomeText{
     position: absolute;
     top:62vh;

@@ -7,6 +7,7 @@ import GmailLogo from '../../images/Gmail.png';
 function MobileContact() {
   return (
     <div className="MobileContactStyle">
+      <div className="MobileContactNavbar"><a href="/" style={{textDecoration:"none"}}>Home</a>&nbsp;&nbsp;&nbsp;<a href="/" style={{textDecoration:"none"}}>About</a> </div>
       <div className="MobileContactText">
         <div className="MobileContactSubText">Social Links</div>
         <div className="MobileContactParaText">

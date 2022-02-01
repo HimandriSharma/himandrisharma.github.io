@@ -12,6 +12,14 @@
   align-items: center;
   justify-content: center;
 }
+.NoneNavbar{
+  position: fixed;
+  top:10px;
+  right: 10px;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 2.5vmin;
+  font-weight: bold;
+}
 .NoneHomeSubText{
   font-size: 3vmin;
   font-family: 'Urbanist', sans-serif;

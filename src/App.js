@@ -1,10 +1,10 @@
 /* eslint-disable no-lone-blocks */
 import './App.css';
+import Home from './components/Desktop/home';
 import MobileHome from './components/Mobile/MobileHome';
 import NoneHome from './components/None/NoneHome';
 import { useWindowSize } from 'react-use';
-import Education from './components/Common/education';
-import Skills from './components/Common/skills';
+
 
 function App() {
   const size = useWindowSize();
@@ -12,39 +12,21 @@ function App() {
   const isMobile = size.width/size.height < 0.88 ;
   return (
     <>
-    {/* {isDesktop && (
+    {isDesktop && (
       <div className="App">
-        <Education />
+        <Home/>
       </div>
     )}
     {isMobile && (
       <div>
-        <MobileHome />
+        <MobileHome/>
       </div>
     )}
     {!isDesktop && !isMobile && (
       <NoneHome />
-    )} */}
-    <Skills />
+    )}
     </>
   );
 }
 
 export default App;
-
-
-
-{/* <header className="App-header">
-    <img src={logo} className="App-logo" alt="logo" />
-    <p>
-      Edit <code>src/App.js</code> and save to reload.
-    </p>
-    <a
-      className="App-link"
-      href="https://reactjs.org"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      Learn React
-    </a>
-  </header> */}

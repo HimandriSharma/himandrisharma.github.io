@@ -4,6 +4,7 @@ import Title from '../../AnimatedText/Title';
 function NoneHome() {
   return (
     <div className="NoneHomeStyle">
+      <div className="NoneNavbar"><a href="/" style={{textDecoration:"none"}}>About</a>&nbsp;&nbsp;&nbsp;<a href="/" style={{textDecoration:"none"}}>Contact</a> </div>
       <div className="NoneText">
         <div className="NoneHomeSubText">Hello 👋🏼, I am</div>
         <Title text="Himandri"/>

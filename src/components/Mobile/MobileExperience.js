@@ -4,6 +4,7 @@ import CardDesktop from '../../Card/cardDesktop';
 function MobileExperience() {
   return (
     <div className="MobileExperienceStyle">
+      <div className="MobileExperienceNavbar"><a href="/" style={{textDecoration:"none"}}>Home</a>&nbsp;&nbsp;&nbsp;<a href="/" style={{textDecoration:"none"}}>Contact</a> </div>
       <div className="MobileExperienceHeading">Experience</div>
       <CardDesktop title="Front-End Development Intern at Happily" date="Aug. 2021​ to Oct. 2021​" text={[`Worked as a sole bridge between marketing and web development.`,`Incorporated Contentful within NextJS for smooth and quick content delivery on the Front-End.`,`Delivered content on Figma to cliet for easy and quick preview of product.`,`Quality Assured all the deliverables.`]} src={require("/home/himandri/Dev/reactfol/webme/src/images/happily.png")}/>
       <CardDesktop title="Front-end Developer Intern at Disecto" date="July. 2021​ to Aug. 2021​" text={[`Initialized Front-End to build medical application which work on abundance data for multiple patients to predict desired results using machine learning and mathematical computations with complete responsiveness using chakraUI.`,`Worked with data flow within the application using Redux.`]} src={require("/home/himandri/Dev/reactfol/webme/src/images/Disecto.png")}/>
