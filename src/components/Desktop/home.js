@@ -5,7 +5,7 @@ import Title from '../../AnimatedText/Title';
 function Home() {
   return (
     <div className="HomeStyle">
-      <div className="navbar"><a href="/" style={{textDecoration:"none"}}>About</a>&nbsp;&nbsp;&nbsp;<a href="/" style={{textDecoration:"none"}}>Contact</a> </div>
+      <div className="navbar"><a href="/experience" style={{textDecoration:"none"}}>About</a>&nbsp;&nbsp;&nbsp;<a href="/contact" style={{textDecoration:"none"}}>Contact</a> </div>
       <img alt="" src={side} className="HomeImage"/>
       <div className="Text">
         <div className="HomeSubText">Hello 👋🏼, I am</div>

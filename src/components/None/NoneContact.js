@@ -8,7 +8,7 @@ import GmailLogo from '../../images/Gmail.png';
 function NoneContact() {
   return (
     <div className="NoneContactStyle">
-      <div className="NoneNavbar"><a href="/" style={{textDecoration:"none"}}>About</a>&nbsp;&nbsp;&nbsp;<a href="/" style={{textDecoration:"none"}}>Home</a> </div>
+      <div className="NoneNavbar"><a href="/experience" style={{textDecoration:"none"}}>About</a>&nbsp;&nbsp;&nbsp;<a href="/" style={{textDecoration:"none"}}>Home</a> </div>
       <div className="NoneContactText">
         <div className="NoneContactSubText">Social Links</div>
         <div className="NoneContactParaText">
