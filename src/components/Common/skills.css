@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Cookie&family=Urbanist:wght@300&display=swap');
 .SkillsStyle{
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     background-color: rgb(243, 217, 238);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 .SkillsHeading{
     font-size: 10vmin;

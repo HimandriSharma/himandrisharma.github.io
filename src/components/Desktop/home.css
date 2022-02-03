@@ -46,6 +46,12 @@
   left: -30%;
   pointer-events: none;
 }
+.HomeResumeLink{
+  text-decoration: none;
+  font-family: 'Urbanist', sans-serif;
+  height: 2vmin;
+  text-align: center;
+}
 @media (prefers-reduced-motion: no-preference) {
     .HomeImage {
       animation: Image-spin infinite 20s linear;

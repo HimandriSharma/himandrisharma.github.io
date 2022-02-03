@@ -21,12 +21,12 @@ function App() {
   const isDesktop = size.width/size.height > 1.67 ;
   const isMobile = size.width/size.height < 0.88 ;
   return (
-    <>
+    <div className="App">
     {isDesktop && (
       <Router>
         <Routes>
             <Route path="/" exact element={<Home/>}/>
-            <Route path="/experience" exact element={<Experience/>}/>
+            <Route path="/about" exact element={<Experience/>}/>
             <Route path="/contact" exact element={<Contact/>}/>
           </Routes>
       </Router>
@@ -35,7 +35,7 @@ function App() {
       <Router>
         <Routes>
             <Route path="/" exact element={<MobileHome/>}/>
-            <Route path="/experience" exact element={<MobileExperience/>}/>
+            <Route path="/about" exact element={<MobileExperience/>}/>
             <Route path="/contact" exact element={<MobileContact/>}/>
           </Routes>
       </Router>
@@ -44,12 +44,12 @@ function App() {
       <Router>
         <Routes>
             <Route path="/" exact element={<NoneHome/>}/>
-            <Route path="/experience" exact element={<NoneExperience/>}/>
+            <Route path="/about" exact element={<NoneExperience/>}/>
             <Route path="/contact" exact element={<NoneContact/>}/>
           </Routes>
       </Router>
     )}
-    </>
+    </div>
   );
 }
 
