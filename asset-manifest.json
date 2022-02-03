@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/webme/static/css/main.bca2366c.css",
-    "main.js": "/webme/static/js/main.659cf957.js",
+    "main.js": "/webme/static/js/main.afb34c74.js",
     "index.html": "/webme/index.html",
     "main.bca2366c.css.map": "/webme/static/css/main.bca2366c.css.map",
-    "main.659cf957.js.map": "/webme/static/js/main.659cf957.js.map"
+    "main.afb34c74.js.map": "/webme/static/js/main.afb34c74.js.map"
   },
   "entrypoints": [
     "static/css/main.bca2366c.css",
-    "static/js/main.659cf957.js"
+    "static/js/main.afb34c74.js"
   ]
 }
