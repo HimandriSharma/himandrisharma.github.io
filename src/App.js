@@ -23,13 +23,14 @@ function App() {
   return (
     <div className="App">
       Hi
-      <Router basename="/">
+      <Home/>
+      {/* <Router basename="/">
         <Routes>
             <Route path="/" exact element={<Home/>}/>
             <Route path="/about" exact element={<Experience/>}/>
             <Route path="/contact" exact element={<Contact/>}/>
           </Routes>
-      </Router>
+      </Router> */}
     {/* {isDesktop && (
       <Router basename="/">
         <Routes>
