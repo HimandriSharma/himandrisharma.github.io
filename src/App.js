@@ -1,8 +1,8 @@
 /* eslint-disable no-lone-blocks */
 import './App.css';
-// import Home from './components/Desktop/home';
-// import Experience from './components/Desktop/experience';
-// import Contact from './components/Desktop/contact';
+import Home from './components/Desktop/home';
+import Experience from './components/Desktop/experience';
+import Contact from './components/Desktop/contact';
 // import MobileHome from './components/Mobile/MobileHome';
 // import MobileExperience from './components/Mobile/MobileExperience';
 // import MobileContact from './components/Mobile/MobileContact';
@@ -10,11 +10,11 @@ import './App.css';
 // import NoneExperience from './components/None/NoneExperience';
 // import NoneContact from './components/None/NoneContact';
 import { useWindowSize } from 'react-use';
-// import {
-//   BrowserRouter as Router,
-//   Routes,
-//   Route,
-// } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 function App() {
   const size = useWindowSize();
@@ -23,13 +23,13 @@ function App() {
   return (
     <div className="App">
       Hi
-      {/* <Router basename="/">
+      <Router basename="/">
         <Routes>
             <Route path="/" exact element={<Home/>}/>
             <Route path="/about" exact element={<Experience/>}/>
             <Route path="/contact" exact element={<Contact/>}/>
           </Routes>
-      </Router> */}
+      </Router>
     {/* {isDesktop && (
       <Router basename="/">
         <Routes>
