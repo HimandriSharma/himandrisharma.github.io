@@ -22,7 +22,6 @@ function App() {
   const isMobile = size.width/size.height < 0.88 ;
   return (
     <div className="App">
-      Hi
       <Home/>
       {/* <Router basename="/">
         <Routes>
