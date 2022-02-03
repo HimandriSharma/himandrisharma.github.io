@@ -1,28 +1,13 @@
 {
   "files": {
-    "main.css": "/webme/static/css/main.b4e7f9c9.css",
-    "main.js": "/webme/static/js/main.f4bd1f0e.js",
-    "static/media/MyImage.png": "/webme/static/media/MyImage.eccdb23bebd4171c095d.png",
-    "static/media/Ardubotics.png": "/webme/static/media/Ardubotics.ab57783dbace2e4deb5d.png",
-    "static/media/MyImageRectangle.jpg": "/webme/static/media/MyImageRectangle.e2fc69a10030d5eb096a.jpg",
-    "static/media/Gmail.png": "/webme/static/media/Gmail.f981a1e48f99c71d8ef1.png",
-    "static/media/Twitter.png": "/webme/static/media/Twitter.beeef5131b86278a4909.png",
-    "static/media/LinkedIn.png": "/webme/static/media/LinkedIn.a04e1e87144ee749bcd0.png",
-    "static/media/cortexbci.png": "/webme/static/media/cortexbci.504ae044405c9f36d97f.png",
-    "static/media/Disecto.png": "/webme/static/media/Disecto.990884cd5beefde731d9.png",
-    "static/media/dsc.png": "/webme/static/media/dsc.43f4a85b01598c749db6.png",
-    "static/media/GitHub.png": "/webme/static/media/GitHub.faf5dc99a5e00dff3afd.png",
-    "static/media/gcp.png": "/webme/static/media/gcp.c37af1652d615f32fc19.png",
-    "static/media/GameBoardHollow.svg": "/webme/static/media/GameBoardHollow.c8ce3e4448590cae057deb85fb14ba11.svg",
-    "static/media/sunrun.png": "/webme/static/media/sunrun.c3d2d750f12cd50560b0.png",
-    "static/media/happily.png": "/webme/static/media/happily.f2b26cc04a51cccddbf0.png",
-    "static/media/GameBoard.svg": "/webme/static/media/GameBoard.4f33cf563004c158b67e1022a5a05e79.svg",
+    "main.css": "/webme/static/css/main.bca2366c.css",
+    "main.js": "/webme/static/js/main.659cf957.js",
     "index.html": "/webme/index.html",
-    "main.b4e7f9c9.css.map": "/webme/static/css/main.b4e7f9c9.css.map",
-    "main.f4bd1f0e.js.map": "/webme/static/js/main.f4bd1f0e.js.map"
+    "main.bca2366c.css.map": "/webme/static/css/main.bca2366c.css.map",
+    "main.659cf957.js.map": "/webme/static/js/main.659cf957.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4e7f9c9.css",
-    "static/js/main.f4bd1f0e.js"
+    "static/css/main.bca2366c.css",
+    "static/js/main.659cf957.js"
   ]
 }
