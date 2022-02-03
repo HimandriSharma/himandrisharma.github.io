@@ -22,13 +22,14 @@ function App() {
   const isMobile = size.width/size.height < 0.88 ;
   return (
     <div className="App">
-      <Router basename="/">
+      Hi
+      {/* <Router basename="/">
         <Routes>
             <Route path="/" exact element={<Home/>}/>
             <Route path="/about" exact element={<Experience/>}/>
             <Route path="/contact" exact element={<Contact/>}/>
           </Routes>
-      </Router>
+      </Router> */}
     {/* {isDesktop && (
       <Router basename="/">
         <Routes>
