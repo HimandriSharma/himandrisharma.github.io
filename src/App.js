@@ -24,14 +24,14 @@ function App() {
     <div className="App">
       {/* <Home/> */}
       hi
-      <Router basename="https://himandrisharma.github.io/webme/">
+      {/* <Router basename="https://himandrisharma.github.io/webme/">
         {isDesktop && 
         <Routes>
           <Route path="/" exact element={<Home/>}/>
           <Route path="/about" exact element={<Experience/>}/>
           <Route path="/contact" exact element={<Contact/>}/>
         </Routes>}
-      </Router>
+      </Router> */}
     {/* {isDesktop && (
       <Router basename="/">
         <Routes>
