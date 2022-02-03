@@ -1,25 +1,25 @@
 /* eslint-disable no-lone-blocks */
 import './App.css';
-import Home from './components/Desktop/home';
-import Experience from './components/Desktop/experience';
-import Contact from './components/Desktop/contact';
-import MobileHome from './components/Mobile/MobileHome';
-import MobileExperience from './components/Mobile/MobileExperience';
-import MobileContact from './components/Mobile/MobileContact';
-import NoneHome from './components/None/NoneHome';
-import NoneExperience from './components/None/NoneExperience';
-import NoneContact from './components/None/NoneContact';
-import { useWindowSize } from 'react-use';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
+// import Home from './components/Desktop/home';
+// import Experience from './components/Desktop/experience';
+// import Contact from './components/Desktop/contact';
+// import MobileHome from './components/Mobile/MobileHome';
+// import MobileExperience from './components/Mobile/MobileExperience';
+// import MobileContact from './components/Mobile/MobileContact';
+// import NoneHome from './components/None/NoneHome';
+// import NoneExperience from './components/None/NoneExperience';
+// import NoneContact from './components/None/NoneContact';
+// import { useWindowSize } from 'react-use';
+// import {
+//   BrowserRouter as Router,
+//   Routes,
+//   Route,
+// } from "react-router-dom";
 
 function App() {
-  const size = useWindowSize();
-  const isDesktop = size.width/size.height > 1.67 ;
-  const isMobile = size.width/size.height < 0.88 ;
+  // const size = useWindowSize();
+  // const isDesktop = size.width/size.height > 1.67 ;
+  // const isMobile = size.width/size.height < 0.88 ;
   return (
     <div className="App">
       Hi
