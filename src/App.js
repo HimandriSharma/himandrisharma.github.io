@@ -23,6 +23,7 @@ function App() {
   return (
     <div className="App">
       {/* <Home/> */}
+      hi
       <Router basename="https://himandrisharma.github.io/webme/">
         {isDesktop && 
         <Routes>
