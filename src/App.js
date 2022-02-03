@@ -9,7 +9,7 @@ import './App.css';
 // import NoneHome from './components/None/NoneHome';
 // import NoneExperience from './components/None/NoneExperience';
 // import NoneContact from './components/None/NoneContact';
-// import { useWindowSize } from 'react-use';
+import { useWindowSize } from 'react-use';
 // import {
 //   BrowserRouter as Router,
 //   Routes,
@@ -17,9 +17,9 @@ import './App.css';
 // } from "react-router-dom";
 
 function App() {
-  // const size = useWindowSize();
-  // const isDesktop = size.width/size.height > 1.67 ;
-  // const isMobile = size.width/size.height < 0.88 ;
+  const size = useWindowSize();
+  const isDesktop = size.width/size.height > 1.67 ;
+  const isMobile = size.width/size.height < 0.88 ;
   return (
     <div className="App">
       Hi
