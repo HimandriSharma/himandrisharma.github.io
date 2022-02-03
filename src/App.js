@@ -24,11 +24,12 @@ function App() {
     <div className="App">
       {/* <Home/> */}
       <Router basename="https://himandrisharma.github.io/webme/">
-        {isDesktop && (<Routes>
-            (<Route path="/" exact element={<Home/>}/>
-            <Route path="/about" exact element={<Experience/>}/>
-            <Route path="/contact" exact element={<Contact/>}/>)
-          </Routes>)}
+        {isDesktop && 
+        <Routes>
+          <Route path="/" exact element={<Home/>}/>
+          <Route path="/about" exact element={<Experience/>}/>
+          <Route path="/contact" exact element={<Contact/>}/>
+        </Routes>}
       </Router>
     {/* {isDesktop && (
       <Router basename="/">
