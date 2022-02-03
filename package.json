@@ -1,7 +1,7 @@
 {
   "name": "webme",
   "version": "0.1.0",
-  "homepage": "https://HimandriSharma.github.io/webme/",
+  "homepage": "https://himandrisharma.github.io/webme/",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
