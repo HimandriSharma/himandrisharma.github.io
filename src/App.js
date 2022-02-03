@@ -23,14 +23,14 @@ function App() {
   return (
     <div className="App">
       {/* <Home/> */}
-      {/* <Router basename="https://himandrisharma.github.io/webme/">
-        <Routes>
-            <Route path="/" exact element={<Home/>}/>
+      <Router basename="https://himandrisharma.github.io/webme/">
+        {isDesktop && (<Routes>
+            (<Route path="/" exact element={<Home/>}/>
             <Route path="/about" exact element={<Experience/>}/>
-            <Route path="/contact" exact element={<Contact/>}/>
-          </Routes>
-      </Router> */}
-    {isDesktop && (
+            <Route path="/contact" exact element={<Contact/>}/>)
+          </Routes>)}
+      </Router>
+    {/* {isDesktop && (
       <Router basename="/">
         <Routes>
             <Route path="/" exact element={<Home/>}/>
@@ -38,7 +38,7 @@ function App() {
             <Route path="/contact" exact element={<Contact/>}/>
           </Routes>
       </Router>
-    )}
+    )} */}
     {/* {isMobile && (
       <Router>
         <Routes>
