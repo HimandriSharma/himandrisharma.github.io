@@ -3,7 +3,7 @@ import './App.css';
 import Home from './components/Desktop/home';
 import Experience from './components/Desktop/experience';
 import Contact from './components/Desktop/contact';
-// import MobileHome from './components/Mobile/MobileHome';
+import MobileHome from './components/Mobile/MobileHome';
 // import MobileExperience from './components/Mobile/MobileExperience';
 // import MobileContact from './components/Mobile/MobileContact';
 // import NoneHome from './components/None/NoneHome';
@@ -23,8 +23,8 @@ function App() {
   return (
     <div className="App">
       {/* <Home/> */}
-      {isDesktop && <div>hi</div>}
-      {isMobile && <div>hello</div>}
+      {isDesktop && <Home/>}
+      {isMobile && <MobileHome/>}
       {/* <Router basename="https://himandrisharma.github.io/webme/">
         {isDesktop && 
         <Routes>
