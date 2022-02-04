@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webme/static/css/main.e37d6ae6.css",
-    "main.js": "/webme/static/js/main.2fda0bad.js",
+    "main.js": "/webme/static/js/main.d2515ad3.js",
     "static/media/MyImage.png": "/webme/static/media/MyImage.eccdb23bebd4171c095d.png",
     "static/media/Ardubotics.png": "/webme/static/media/Ardubotics.ab57783dbace2e4deb5d.png",
     "static/media/MyImageRectangle.jpg": "/webme/static/media/MyImageRectangle.e2fc69a10030d5eb096a.jpg",
@@ -19,10 +19,10 @@
     "static/media/GameBoard.svg": "/webme/static/media/GameBoard.4f33cf563004c158b67e1022a5a05e79.svg",
     "index.html": "/webme/index.html",
     "main.e37d6ae6.css.map": "/webme/static/css/main.e37d6ae6.css.map",
-    "main.2fda0bad.js.map": "/webme/static/js/main.2fda0bad.js.map"
+    "main.d2515ad3.js.map": "/webme/static/js/main.d2515ad3.js.map"
   },
   "entrypoints": [
     "static/css/main.e37d6ae6.css",
-    "static/js/main.2fda0bad.js"
+    "static/js/main.d2515ad3.js"
   ]
 }
