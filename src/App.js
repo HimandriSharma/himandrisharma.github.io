@@ -11,7 +11,6 @@ import MobileHome from './components/Mobile/MobileHome';
 // import NoneContact from './components/None/NoneContact';
 import { useWindowSize } from 'react-use';
 import {
-  BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
@@ -25,13 +24,11 @@ function App() {
       {/* <Home/> */}
       {/* {isDesktop && <Home/>}
       {isMobile && <MobileHome/>} */}
-       <Router basename="https://himandrisharma.github.io/webme/">
         <Routes>
           <Route path="/" exact element={<Home/>}/>
           <Route path="/about" exact element={<Experience/>}/>
           <Route path="/contact" exact element={<Contact/>}/>
         </Routes>
-      </Router> 
     {/* {isDesktop && (
       <Router basename="/">
         <Routes>

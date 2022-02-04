@@ -1,11 +1,12 @@
 import './home.css';
 import side from '../../images/GameBoard.svg';
 import Title from '../../AnimatedText/Title';
+import {Link} from 'react-router-dom';
 
 function Home() {
   return (
     <div className="HomeStyle">
-      <div className="navbar"><a href="/about" style={{textDecoration:"none"}}>About</a>&nbsp;&nbsp;&nbsp;<a href="/contact" style={{textDecoration:"none"}}>Contact</a> </div>
+      <div className="navbar"><Link to="/about" style={{textDecoration:"none"}}>About</Link>&nbsp;&nbsp;&nbsp;<Link to="/contact" style={{textDecoration:"none"}}>Contact</Link> </div>
       <img alt="" src={side} className="HomeImage"/>
       <div className="Text">
         <div className="HomeSubText">Hello 👋🏼, I am</div>
