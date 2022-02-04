@@ -3,12 +3,13 @@ import CardDesktop from '../../Card/cardDesktop';
 import Education from '../Common/education';
 import Projects from '../Common/projects';
 import Skills from '../Common/skills';
+import {Link} from 'react-router-dom';
 
 function Experience() {
   return (
     <>
       <div className="ExperienceStyle">
-        <div className="MobileExperienceNavbar"><a href="/" style={{textDecoration:"none"}}>Home</a>&nbsp;&nbsp;&nbsp;<a href="/contact" style={{textDecoration:"none"}}>Contact</a> </div>
+        <div className="MobileExperienceNavbar"><Link to="/" style={{textDecoration:"none"}}>Home</Link>&nbsp;&nbsp;&nbsp;<Link to="/contact" style={{textDecoration:"none"}}>Contact</Link> </div>
         <div className="ExperienceHeading">Experience</div>
         <CardDesktop title="Front-End Development Intern at Happily" date="Aug. 2021​ to Oct. 2021​" text={[`Incorporated Contentful within NextJS for smooth and quick content delivery on the Front-End.`,`Delivered content on Figma to the client for an easy and quick preview of the product.`,`Delivered content on Figma to cliet for easy and quick preview of product.`,`Made ongoing application responsive and implemented image optimization.`]} src={require("/home/himandri/Dev/reactfol/webme/src/images/happily.png")}/>
         <CardDesktop title="Front-End Developer Intern at Disecto" date="July. 2021​ to Aug. 2021​" text={[`Front-End to build a medical application.`,`Integration with APIs which work on abundance data for multiple patients to predict desired results.`,`Used ReactJS and ChakraUI for complex design implementation on the front-end.`,`Managed data flows within the application using Redux.`]} src={require("/home/himandri/Dev/reactfol/webme/src/images/Disecto.png")}/>

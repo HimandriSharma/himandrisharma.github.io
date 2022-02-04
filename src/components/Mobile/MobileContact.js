@@ -3,11 +3,12 @@ import GithubLogo from '../../images/GitHub.png';
 import TwitterLogo from '../../images/Twitter.png';
 import LinkedInLogo from '../../images/LinkedIn.png';
 import GmailLogo from '../../images/Gmail.png';
+import {Link} from 'react-router-dom';
 
 function MobileContact() {
   return (
     <div className="MobileContactStyle">
-      <div className="MobileContactNavbar"><a href="/about" style={{textDecoration:"none"}}>About</a>&nbsp;&nbsp;&nbsp;<a href="/" style={{textDecoration:"none"}}>Home</a></div>
+      <div className="MobileContactNavbar"><Link to="/about" style={{textDecoration:"none"}}>About</Link>&nbsp;&nbsp;&nbsp;<Link to="/" style={{textDecoration:"none"}}>Home</Link></div>
       <div className="MobileContactText">
         <div className="MobileContactSubText">Social Links</div>
         <div className="MobileContactParaText">

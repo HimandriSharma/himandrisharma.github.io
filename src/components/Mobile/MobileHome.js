@@ -1,11 +1,12 @@
 import './MobileHome.css';
 import GameBoard from '../../images/GameBoard.svg';
 import Title from '../../AnimatedText/Title';
+import {Link} from 'react-router-dom';
 
 function MobileHome() {
   return (
     <div className="MobileHomeStyle">
-        <div className="MobileNavbar"><a href="/about" style={{textDecoration:"none"}}>About</a>&nbsp;&nbsp;&nbsp;<a href="/contact" style={{textDecoration:"none"}}>Contact</a> </div>
+        <div className="MobileNavbar"><Link to="/about" style={{textDecoration:"none"}}>About</Link>&nbsp;&nbsp;&nbsp;<Link to="/contact" style={{textDecoration:"none"}}>Contact</Link> </div>
         <img src={GameBoard} alt="" className="MobileHomeImage"/>
         <div className="MobileHomeText">
             <div className="MobileHomeSubText">Hello 👋🏼, I am</div>

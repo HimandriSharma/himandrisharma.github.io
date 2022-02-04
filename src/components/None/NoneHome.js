@@ -1,10 +1,11 @@
 import './NoneHome.css';
 import Title from '../../AnimatedText/Title';
+import {Link} from 'react-router-dom';
 
 function NoneHome() {
   return (
     <div className="NoneHomeStyle">
-      <div className="NoneNavbar"><a href="/experience" style={{textDecoration:"none"}}>About</a>&nbsp;&nbsp;&nbsp;<a href="/contact" style={{textDecoration:"none"}}>Contact</a> </div>
+      <div className="NoneNavbar"><Link to="/about" style={{textDecoration:"none"}}>About</Link>&nbsp;&nbsp;&nbsp;<Link to="/contact" style={{textDecoration:"none"}}>Contact</Link> </div>
       <div className="NoneText">
         <div className="NoneHomeSubText">Hello 👋🏼, I am</div>
         <Title text="Himandri"/>

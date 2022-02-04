@@ -5,12 +5,12 @@ import GithubLogo from '../../images/GitHub.png';
 import TwitterLogo from '../../images/Twitter.png';
 import LinkedInLogo from '../../images/LinkedIn.png';
 import GmailLogo from '../../images/Gmail.png';
-
+import {Link} from 'react-router-dom';
 
 function Contact() {
   return (
     <div className="ContactStyle">
-      <div className="navbar"><a href="/" style={{textDecoration:"none"}}>About</a>&nbsp;&nbsp;&nbsp;<a href="/" style={{textDecoration:"none"}}>Home</a> </div>
+      <div className="navbar"><Link to="/" style={{textDecoration:"none"}}>Home</Link>&nbsp;&nbsp;&nbsp;<Link to="/about" style={{textDecoration:"none"}}>About</Link> </div>
       <img alt="" src={HollowBoard} className="Image"/>
       <img alt="" src={MyImage} className="MyImage"/>
       <div className="Text">

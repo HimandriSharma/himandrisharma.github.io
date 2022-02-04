@@ -3,12 +3,13 @@ import GithubLogo from '../../images/GitHub.png';
 import TwitterLogo from '../../images/Twitter.png';
 import LinkedInLogo from '../../images/LinkedIn.png';
 import GmailLogo from '../../images/Gmail.png';
+import {Link} from 'react-router-dom';
 
 
 function NoneContact() {
   return (
     <div className="NoneContactStyle">
-      <div className="NoneNavbar"><a href="/experience" style={{textDecoration:"none"}}>About</a>&nbsp;&nbsp;&nbsp;<a href="/" style={{textDecoration:"none"}}>Home</a> </div>
+      <div className="NoneNavbar"><Link to="/experience" style={{textDecoration:"none"}}>About</Link>&nbsp;&nbsp;&nbsp;<Link to="/" style={{textDecoration:"none"}}>Home</Link> </div>
       <div className="NoneContactText">
         <div className="NoneContactSubText">Social Links</div>
         <div className="NoneContactParaText">
