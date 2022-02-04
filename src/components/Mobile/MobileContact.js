@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom';
 function MobileContact() {
   return (
     <div className="MobileContactStyle">
-      <div className="MobileContactNavbar"><a href="https://drive.google.com/file/d/1dCDo0LqkU6jgN4XOwzLP_nNgKsgkjMxJ/view?usp=sharing" style={{textDecoration:"none"}}>Resume</a>&nbsp;&nbsp;&nbsp;<Link to="/about" style={{textDecoration:"none"}}>About</Link>&nbsp;&nbsp;&nbsp;<Link to="/" style={{textDecoration:"none"}}>Home</Link></div>
+      <div className="MobileContactNavbar"><a className="navIcon" href="https://drive.google.com/file/d/1dCDo0LqkU6jgN4XOwzLP_nNgKsgkjMxJ/view?usp=sharing" style={{textDecoration:"none"}}>Resume</a>&nbsp;&nbsp;&nbsp;<Link className="navIcon" to="/about" style={{textDecoration:"none"}}>About</Link>&nbsp;&nbsp;&nbsp;<Link className="navIcon" to="/" style={{textDecoration:"none"}}>Home</Link></div>
       <div className="MobileContactText">
         <div className="MobileContactSubText">Social Links</div>
         <div className="MobileContactParaText">

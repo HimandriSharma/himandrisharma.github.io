@@ -24,6 +24,9 @@
   padding: 10px;
   background-color: rgb(243, 217, 238);
 }
+.navIcon{
+  color: black;
+}
 .MyImage{
   position: absolute;
   display: flex;
