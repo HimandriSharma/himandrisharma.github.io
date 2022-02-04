@@ -24,11 +24,11 @@ function App() {
       {/* <Home/> */}
       {/* {isDesktop && <Home/>}
       {isMobile && <MobileHome/>} */}
-        <Routes>
+        {isDesktop && (<Routes>
           <Route path="/" exact element={<Home/>}/>
           <Route path="/about" exact element={<Experience/>}/>
           <Route path="/contact" exact element={<Contact/>}/>
-        </Routes>
+        </Routes>)}
     {/* {isDesktop && (
       <Router basename="/">
         <Routes>
