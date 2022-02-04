@@ -8,6 +8,14 @@
     justify-content: center;
     align-items: center;
 }
+.ExperienceNavbar{
+    position: fixed;
+    top:10px;
+    right: 10px;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 2.5vmin;
+    font-weight: bold;
+  }
 .ExperienceHeading{
     font-size: 10vmin;
     left:50px;
