@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom';
 function NoneContact() {
   return (
     <div className="NoneContactStyle">
-      <div className="NoneNavbar"><Link to="/experience" style={{textDecoration:"none"}}>About</Link>&nbsp;&nbsp;&nbsp;<Link to="/" style={{textDecoration:"none"}}>Home</Link> </div>
+      <div className="NoneNavbar"><Link to="https://drive.google.com/file/d/1dCDo0LqkU6jgN4XOwzLP_nNgKsgkjMxJ/view?usp=sharing">Resume</Link><Link to="/experience" style={{textDecoration:"none"}}>About</Link>&nbsp;&nbsp;&nbsp;<Link to="/" style={{textDecoration:"none"}}>Home</Link> </div>
       <div className="NoneContactText">
         <div className="NoneContactSubText">Social Links</div>
         <div className="NoneContactParaText">
