@@ -9,7 +9,7 @@ function NoneExperience() {
   return (
     <>
       <div className="NoneExperienceStyle">
-        <div className="NoneNavbar"><Link to="/" style={{textDecoration:"none"}}>Home</Link>&nbsp;&nbsp;&nbsp;<Link to="/" style={{textDecoration:"none"}}>Contact</Link> </div>
+        <div className="NoneNavbar"><a href="https://drive.google.com/file/d/1dCDo0LqkU6jgN4XOwzLP_nNgKsgkjMxJ/view?usp=sharing" style={{textDecoration:"none"}}>Resume</a>&nbsp;&nbsp;&nbsp;<Link to="/" style={{textDecoration:"none"}}>Home</Link>&nbsp;&nbsp;&nbsp;<Link to="/" style={{textDecoration:"none"}}>Contact</Link> </div>
         <div className="NoneExperienceContent">
           <div className="NoneExperienceHeading">Experience</div>
           <CardMobile title="Front-End Development Intern at Happily" date="Aug. 2021​ to Oct. 2021​" text={[`Incorporated Contentful within NextJS for smooth and quick content delivery on the Front-End.`,`Delivered content on Figma to the client for an easy and quick preview of the product.`,`Delivered content on Figma to cliet for easy and quick preview of product.`,`Made ongoing application responsive and implemented image optimization.`]} src={require("/home/himandri/Dev/reactfol/webme/src/images/happily.png")}/>

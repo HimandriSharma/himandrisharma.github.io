@@ -10,7 +10,7 @@ import {Link} from 'react-router-dom';
 function Contact() {
   return (
     <div className="ContactStyle">
-      <div className="navbar"><Link to="/" style={{textDecoration:"none"}}>Home</Link>&nbsp;&nbsp;&nbsp;<Link to="/about" style={{textDecoration:"none"}}>About</Link> </div>
+      <div className="navbar"><a href="https://drive.google.com/file/d/1dCDo0LqkU6jgN4XOwzLP_nNgKsgkjMxJ/view?usp=sharing" style={{textDecoration:"none"}}>Resume</a>&nbsp;&nbsp;&nbsp;<Link to="/" style={{textDecoration:"none"}}>Home</Link>&nbsp;&nbsp;&nbsp;<Link to="/about" style={{textDecoration:"none"}}>About</Link> </div>
       <img alt="" src={HollowBoard} className="Image"/>
       <img alt="" src={MyImage} className="MyImage"/>
       <div className="Text">
