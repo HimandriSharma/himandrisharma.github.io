@@ -7,6 +7,7 @@ import LinkedInLogo from '../../images/LinkedIn.png';
 import GmailLogo from '../../images/Gmail.png';
 import {Link} from 'react-router-dom';
 
+
 function Contact() {
   return (
     <div className="ContactStyle">
