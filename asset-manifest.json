@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/webme/static/css/main.0f02a627.css",
-    "main.js": "/webme/static/js/main.918c6525.js",
+    "main.css": "/webme/static/css/main.e37d6ae6.css",
+    "main.js": "/webme/static/js/main.36da8633.js",
     "static/media/MyImage.png": "/webme/static/media/MyImage.eccdb23bebd4171c095d.png",
     "static/media/Ardubotics.png": "/webme/static/media/Ardubotics.ab57783dbace2e4deb5d.png",
+    "static/media/MyImageRectangle.jpg": "/webme/static/media/MyImageRectangle.e2fc69a10030d5eb096a.jpg",
     "static/media/Gmail.png": "/webme/static/media/Gmail.f981a1e48f99c71d8ef1.png",
     "static/media/Twitter.png": "/webme/static/media/Twitter.beeef5131b86278a4909.png",
     "static/media/LinkedIn.png": "/webme/static/media/LinkedIn.a04e1e87144ee749bcd0.png",
@@ -17,11 +18,11 @@
     "static/media/happily.png": "/webme/static/media/happily.f2b26cc04a51cccddbf0.png",
     "static/media/GameBoard.svg": "/webme/static/media/GameBoard.4f33cf563004c158b67e1022a5a05e79.svg",
     "index.html": "/webme/index.html",
-    "main.0f02a627.css.map": "/webme/static/css/main.0f02a627.css.map",
-    "main.918c6525.js.map": "/webme/static/js/main.918c6525.js.map"
+    "main.e37d6ae6.css.map": "/webme/static/css/main.e37d6ae6.css.map",
+    "main.36da8633.js.map": "/webme/static/js/main.36da8633.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f02a627.css",
-    "static/js/main.918c6525.js"
+    "static/css/main.e37d6ae6.css",
+    "static/js/main.36da8633.js"
   ]
 }
