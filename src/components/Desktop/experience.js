@@ -20,10 +20,11 @@ function Experience() {
         <CardDesktop title="Robotics Trainer at Ardubotics" date="July 2019​ to Jan. 2020​​" text={[`Robotics Trainer at Amity International School for primary grade students.`,`Worked for the development of students' technical knowledge and to give them exposure of the real world working of technical things that they're surrounded by and coding Arduino.`]} src={require("/home/himandri/Dev/reactfol/himandrisharma.github.io/src/images/Ardubotics.png")}/>
         <CardDesktop title="Robotics Expert at WTM BVP" date="June 2019​ to June 2020​" text={[`Worked for the representation of women community on campus and to promote more women.`,`Organized women-centric workshops on software and hardware fundamentals.`]} src={require("/home/himandri/Dev/reactfol/himandrisharma.github.io/src/images/wtmbvp.png")}/>
         <CardDesktop title="Executive, RNIS-H at DSC BVP" date="June 2020​ to June 2020​​" text={[`Robotics and Intelligence Systems (Hardware) in DSC BVP by Google.`,`Worked on the development of hardware projects.`,`Organized workshops on software and hardware fundamentals.`]} src={require("/home/himandri/Dev/reactfol/himandrisharma.github.io/src/images/dsc.png")}/>
+        <Projects/>
+        <Skills/>
+        <Education/>
       </div>
-      <Projects/>
-      <Skills/>
-      <Education/>
+      
     </>
   );
 }

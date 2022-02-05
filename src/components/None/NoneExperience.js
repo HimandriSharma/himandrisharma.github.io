@@ -22,10 +22,10 @@ function NoneExperience() {
           <CardMobile title="Robotics Expert at WTM BVP" date="June 2019​ to June 2020​" text={[`Worked for the representation of women community on campus and to promote more women.`,`Organized women-centric workshops on software and hardware fundamentals.`]} src={require("/home/himandri/Dev/reactfol/himandrisharma.github.io/src/images/wtmbvp.png")}/>
           <CardMobile title="Executive, RNIS-H at DSC BVP" date="June 2020​ to June 2020​​" text={[`Robotics and Intelligence Systems (Hardware) in DSC BVP by Google.`,`Worked on the development of hardware projects.`,`Organized workshops on software and hardware fundamentals.`]} src={require("/home/himandri/Dev/reactfol/himandrisharma.github.io/src/images/dsc.png")}/>
         </div>
+        <Projects/>
+        <Skills/>
+        <Education/>
       </div>
-      <Projects/>
-      <Skills/>
-      <Education/>
     </>
   );
 }

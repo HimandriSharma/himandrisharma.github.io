@@ -4,9 +4,9 @@ import { useWindowSize } from 'react-use';
 
 function CardProject(props) {
   const size = useWindowSize();
-  const isMobile = size.width/size.height < 0.88 ;
+  const isDesktop = size.width/size.height > 1.67 ; ;
     return (
-      <div className={isMobile?"CardProjectMobileStyle":"CardProjectStyle"}>
+      <div className={isDesktop?"CardProjectStyle":"CardProjectMobileStyle"}>
         <div className="CardProjectHeading">{props.title}</div>
         <div className="CardProjectStacks">{props.stacks}</div>
         <div className="CardProjectText">
