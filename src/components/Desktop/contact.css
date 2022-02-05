@@ -26,6 +26,7 @@
 }
 .navIcon{
   color: black;
+  text-decoration: underline;
 }
 .MyImage{
   position: absolute;
