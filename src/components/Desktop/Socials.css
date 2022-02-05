@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Urbanist:wght@300&display=swap');
 
-.ContactStyle{
+.SocialsStyle{
   height: 100vh;
   width: 100vw;
   background-color: rgb(243, 217, 238);
@@ -52,7 +52,7 @@
   margin:10px;
   font-weight: bold;
 }
-.ContactParaText{
+.SocialsParaText{
   font-size: 3vmin;
   font-family: 'Urbanist', sans-serif;
   display: flex;
@@ -60,7 +60,7 @@
   justify-content: flex-start;
   align-items: flex-start;
 }
-.ContactAlign{
+.SocialsAlign{
   display: flex;
   flex-direction: row;
   justify-content: center;
