@@ -9,23 +9,25 @@ import MobileSocials from './components/Mobile/MobileSocials';
 import NoneHome from './components/None/NoneHome';
 import NoneExperience from './components/None/NoneExperience';
 import NoneSocials from './components/None/NoneSocials';
-import { useWindowSize } from 'react-use';
+import useWindowDimensions from './useWindowDimensions';
 import {
   Routes,
   Route,
 } from "react-router-dom";
 
 function App() {
-  const size = useWindowSize();
-  const isDesktop = size.width/size.height > 1.67 ;
-  const isMobile = size.width/size.height < 0.88 ;
+  const {height,width} = useWindowDimensions();
+  const isDesktop = width/height > 1.67 ;
+  const isMobile = width/height < 0.88 ;
   return (
     <div className="App">
-      {isDesktop && (<Routes>
-        <Route path="/" exact element={<Home/>}/>
-        <Route path="/about" exact element={<Experience/>}/>
-        <Route path="/Socials" exact element={<Socials/>}/>
-      </Routes>)}
+    {isDesktop && (
+      <Routes>
+      <Route path="/" exact element={<Home/>}/>
+      <Route path="/about" exact element={<Experience/>}/>
+      <Route path="/Socials" exact element={<Socials/>}/>
+    </Routes>
+    )}
     {isMobile && (
       <Routes>
         <Route path="/" exact element={<MobileHome/>}/>

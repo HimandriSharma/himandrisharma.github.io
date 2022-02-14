@@ -1,10 +1,10 @@
 import './cardProject.css';
 import GitHub from '../images/GitHub.png';
-import { useWindowSize } from 'react-use';
+import useWindowDimensions from '../useWindowDimensions';
 
 function CardProject(props) {
-  const size = useWindowSize();
-  const isDesktop = size.width/size.height > 1.67 ; ;
+  const {height,width} = useWindowDimensions();
+  const isDesktop = width/height > 1.67 ; ;
     return (
       <div className={isDesktop?"CardProjectStyle":"CardProjectMobileStyle"}>
         <div className="CardProjectHeading">{props.title}</div>

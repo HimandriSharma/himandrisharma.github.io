@@ -1,9 +1,9 @@
 import './cardSkill.css';
-import { useWindowSize } from 'react-use';
+import useWindowDimensions from '../useWindowDimensions';
 
 function CardSkill(props) {
-    const size = useWindowSize();
-    const isNotDesktop = !(size.width/size.height < 0.88) ;
+    const {height,width} = useWindowDimensions();
+    const isNotDesktop = !(width/height < 0.88) ;
     const ulcardSkill = isNotDesktop?"ulcardSkill":"ulcardMobile";
     const licardSkill = isNotDesktop?"licardSkill":"";
     return (
