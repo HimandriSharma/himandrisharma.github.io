@@ -21,27 +21,26 @@ function App() {
   const isMobile = width/height < 0.88 ;
   return (
     <div className="App">
-    {isDesktop && (
+    {isDesktop ? (
       <Routes>
       <Route path="/" exact element={<Home/>}/>
       <Route path="/about" exact element={<Experience/>}/>
       <Route path="/Socials" exact element={<Socials/>}/>
     </Routes>
-    )}
-    {isMobile && (
+    ):(isMobile ? (
       <Routes>
         <Route path="/" exact element={<MobileHome/>}/>
         <Route path="/about" exact element={<MobileExperience/>}/>
         <Route path="/Socials" exact element={<MobileSocials/>}/>
       </Routes>
-    )}
-    {!isDesktop && !isMobile && (
+    ):(
       <Routes>
         <Route path="/" exact element={<NoneHome/>}/>
         <Route path="/about" exact element={<NoneExperience/>}/>
         <Route path="/Socials" exact element={<NoneSocials/>}/>
       </Routes>
-    )}
+    ))
+  }
     </div>
   );
 }
