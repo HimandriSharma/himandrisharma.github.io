@@ -3,8 +3,8 @@ import GitHub from '../images/GitHub.png';
 import useWindowDimensions from '../useWindowDimensions';
 
 function CardProject(props) {
-  const {height,width} = useWindowDimensions();
-  const isDesktop = width/height > 1.67 ; ;
+  const ratio = useWindowDimensions();
+  const isDesktop = ratio > 1.67 ;
     return (
       <div className={isDesktop?"CardProjectStyle":"CardProjectMobileStyle"}>
         <div className="CardProjectHeading">{props.title}</div>

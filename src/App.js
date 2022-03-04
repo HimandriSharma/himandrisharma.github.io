@@ -16,9 +16,9 @@ import {
 } from "react-router-dom";
 
 function App() {
-  const {height,width} = useWindowDimensions();
-  const isDesktop = width/height > 1.67 ;
-  const isMobile = width/height < 0.88 ;
+  const ratio = useWindowDimensions();
+  const isDesktop = ratio > 1.67 ;
+  const isMobile = ratio < 0.88 ;
   return (
     <div className="App">
     {isDesktop ? (
