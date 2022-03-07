@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 function getWindowDimensionRatio() {
-  const windowRatio = window.width/window.height;
+  const windowRatio = window.innerWidth/window.innerHeight;
   return windowRatio;
 }
 
