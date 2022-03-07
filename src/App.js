@@ -25,7 +25,7 @@ function App() {
     {isDesktop && (
       <Routes>
       <Route path="/" exact element={<Home/>}/>
-      <Route path="/about" exact element={<Experience/>}/>
+      <Route path="/About" exact element={<Experience/>}/>
       <Route path="/Socials" exact element={<Socials/>}/>
     </Routes>
     )
@@ -33,14 +33,14 @@ function App() {
     {(isMobile && (
       <Routes>
         <Route path="/" exact element={<MobileHome/>}/>
-        <Route path="/about" exact element={<MobileExperience/>}/>
+        <Route path="/About" exact element={<MobileExperience/>}/>
         <Route path="/Socials" exact element={<MobileSocials/>}/>
       </Routes>
     ))}
     {(!isMobile && !isDesktop && (
       <Routes>
         <Route path="/" exact element={<NoneHome/>}/>
-        <Route path="/about" exact element={<NoneExperience/>}/>
+        <Route path="/About" exact element={<NoneExperience/>}/>
         <Route path="/Socials" exact element={<NoneSocials/>}/>
       </Routes>
     ))}

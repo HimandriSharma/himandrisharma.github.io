@@ -11,7 +11,7 @@ import {Link} from 'react-router-dom';
 function Socials() {
   return (
     <div className="SocialsStyle">
-      <div className="navbar"><a className="navIcon" href="https://drive.google.com/file/d/1dCDo0LqkU6jgN4XOwzLP_nNgKsgkjMxJ/view?usp=sharing">Resume</a>&nbsp;&nbsp;&nbsp;<Link to="/" className="navIcon">Home</Link>&nbsp;&nbsp;&nbsp;<Link to="/about" className="navIcon">About</Link> </div>
+      <div className="navbar"><a className="navIcon" href="https://drive.google.com/file/d/1dCDo0LqkU6jgN4XOwzLP_nNgKsgkjMxJ/view?usp=sharing">Resume</a>&nbsp;&nbsp;&nbsp;<Link to="/" className="navIcon">Home</Link>&nbsp;&nbsp;&nbsp;<Link to="/About" className="navIcon">About</Link> </div>
       <img alt="" src={HollowBoard} className="Image"/>
       <img alt="" src={MyImage} className="MyImage"/>
       <div className="Text">

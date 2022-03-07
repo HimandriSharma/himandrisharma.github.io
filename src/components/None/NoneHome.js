@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 function NoneHome() {
   return (
     <div className="NoneHomeStyle">
-      <div className="NoneNavbar"><a className="navIcon" href="https://drive.google.com/file/d/1dCDo0LqkU6jgN4XOwzLP_nNgKsgkjMxJ/view?usp=sharing"  >Resume</a>&nbsp;&nbsp;&nbsp;<Link className="navIcon" to="/about"  >About</Link>&nbsp;&nbsp;&nbsp;<Link className="navIcon" to="/Socials"  >Socials</Link> </div>
+      <div className="NoneNavbar"><a className="navIcon" href="https://drive.google.com/file/d/1dCDo0LqkU6jgN4XOwzLP_nNgKsgkjMxJ/view?usp=sharing"  >Resume</a>&nbsp;&nbsp;&nbsp;<Link className="navIcon" to="/About"  >About</Link>&nbsp;&nbsp;&nbsp;<Link className="navIcon" to="/Socials"  >Socials</Link> </div>
       <div className="NoneText">
         <div className="NoneHomeSubText">Hello 👋🏼, I am</div>
         <Title text="Himandri"/>
