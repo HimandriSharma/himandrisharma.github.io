@@ -17,7 +17,6 @@ import {
 
 function App() {
   const ratio = useWindowDimensions();
-  console.log("here"+ratio);
   const isDesktop = ratio > 1.67 ;
   const isMobile = ratio < 0.88 ;
   return (
