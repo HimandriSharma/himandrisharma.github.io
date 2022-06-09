@@ -28,7 +28,7 @@ function Experience() {
         <div className="ExperienceHeading">Experience</div>
         <CardDesktop
           title="Front-End Developer at Ecocrumb"
-          date="Mar. 20212 to present​"
+          date="Apr. 2022 to present​"
           text={[
             `Working on Front-end of an intelligent ESG reporting platform which automatically detects your records and save up time to find them again in th books.`,
             `Workng with ReactJS, ant designs with LESS for styling.`,
