@@ -8,7 +8,7 @@ function Skills() {
         <div className="SkillsHeading">Skills</div>
         <div className="SkillsSpecific">
           <CardSkill title="Languages" text={["JavaScript/Typescript","HTML","Java","CSS","XML","Markdown"]}/>
-          <CardSkill title="Technologies Used" text={["ReactJs","NextJS","NodeJS","Flutter","Mocha/Chai","Git","VS Code"]}/>
+          <CardSkill title="Technologies Used" text={["ReactJs","NextJS","NodeJS","Flutter","Mocha/Chai","Jest","Git","VS Code"]}/>
         </div>
       </div>
     </div>
