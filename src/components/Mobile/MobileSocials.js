@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom';
 function MobileSocials() {
   return (
     <div className="MobileSocialsStyle">
-      <div className="MobileSocialsNavbar"><a className="navIcon" href="https://drive.google.com/file/d/1IAx083dfo7P2Jh1vFX8uFze-DBVhVhFE/view?usp=sharing"  >Resume</a>&nbsp;&nbsp;&nbsp;<Link className="navIcon" to="/About"  >About</Link>&nbsp;&nbsp;&nbsp;<Link className="navIcon" to="/"  >Home</Link></div>
+      <div className="MobileSocialsNavbar"><a className="navIcon" href="https://drive.google.com/file/d/1UAVbtYNI1qz1kFOnxyzK-AlfNoDpBhTU/view"  >Resume</a>&nbsp;&nbsp;&nbsp;<Link className="navIcon" to="/About"  >About</Link>&nbsp;&nbsp;&nbsp;<Link className="navIcon" to="/"  >Home</Link></div>
       <div className="MobileSocialsText">
         <div className="MobileSocialsSubText">Socials</div>
         <div className="MobileSocialsParaText">
