@@ -42,7 +42,6 @@ function MobileExperience() {
           text={[
             `Incorporated Contentful within NextJS for smooth and quick content delivery on the Front-End.`,
             `Delivered content on Figma to the client for an easy and quick preview of the product.`,
-            `Delivered content on Figma to cliet for easy and quick preview of product.`,
             `Made ongoing application responsive and implemented image optimization.`,
           ]}
           src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/happily.png")}
@@ -51,7 +50,7 @@ function MobileExperience() {
           title="Front-End Developer Intern at Disecto"
           date="July. 2021​ to Aug. 2021​"
           text={[
-            `Front-End to build a medical application.`,
+            `Built the Front-End of a medical application.`,
             `Integration with APIs which work on abundance data for multiple patients to predict desired results.`,
             `Used ReactJS and ChakraUI for complex design implementation on the front-end.`,
             `Managed data flows within the application using Redux.`,
