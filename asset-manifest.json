@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bb83ea8f.css",
-    "main.js": "/static/js/main.9409ebcf.js",
+    "main.js": "/static/js/main.04015eb3.js",
     "static/media/MyImage.png": "/static/media/MyImage.4478debf88f030dd43aa.png",
     "static/media/Ardubotics.png": "/static/media/Ardubotics.ab57783dbace2e4deb5d.png",
     "static/media/MyImageRectangle.jpg": "/static/media/MyImageRectangle.8847eab950c722b287b6.jpg",
@@ -21,6 +21,6 @@
   },
   "entrypoints": [
     "static/css/main.bb83ea8f.css",
-    "static/js/main.9409ebcf.js"
+    "static/js/main.04015eb3.js"
   ]
 }
