@@ -11,7 +11,7 @@ function Home() {
       <div className="navbar">
         <a
           className="navIcon"
-          onClick={()=>gaEventTracker('resume')}
+          onClick={() => gaEventTracker("resume")}
           href="https://drive.google.com/file/d/1UAVbtYNI1qz1kFOnxyzK-AlfNoDpBhTU/view"
         >
           Resume
@@ -34,6 +34,15 @@ function Home() {
           <br /> through tech communities and learn new tech
           <br /> stacks to build cool things!
         </div>
+        <a
+          href="https://himandrisharma.tk/landing-on-three/"
+          target="_blank"
+          rel="noreferrer"
+          className="blink_me HomeParaText"
+          style={{ paddingLeft: "2rem" }}
+        >
+          checkout the latest threeJS project by clicking here.
+        </a>
       </div>
     </div>
   );

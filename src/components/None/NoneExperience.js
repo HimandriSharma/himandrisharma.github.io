@@ -33,7 +33,7 @@ function NoneExperience() {
             text={[
               `Working on Front-end of an intelligent ESG reporting platform which automatically detects your records and save up time to find them again in the books.`,
               `Workng with ReactJS, ant designs with LESS for styling.`,
-              `Making infrastructure smoother with AWS and helping to improve on it with best practices.`,
+              `Load testing integration using k6 for maximum user capacity information.`,
             ]}
             src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/ecocrumb.png")}
           />

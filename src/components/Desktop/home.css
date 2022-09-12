@@ -21,7 +21,7 @@
 .Text{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   margin-left: 25%;
 }
@@ -34,10 +34,10 @@
   font-size: 2.5vmin;
   font-family: 'Urbanist', sans-serif;
   margin:3px;
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center; */
 }
 .HomeImage{
   height: 125vmin;
@@ -65,4 +65,17 @@
     to {
       transform: rotate(360deg);
     }
+}
+
+.blink_me {
+  animation: blinker 3s infinite; 
+  /* linear */
+  color: palevioletred;
+  display: flex;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
