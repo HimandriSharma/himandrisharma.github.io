@@ -38,7 +38,7 @@ function NoneExperience() {
             src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/ecocrumb.png")}
           />
           <CardMobile
-            title="Front-End Development Intern at Happily"
+            title="Front-End Developer at Happily"
             date="Aug. 2021​ to Oct. 2021​"
             text={[
               `Worked with a team of front-end developers and marketing to set up the front end.`,
@@ -49,7 +49,7 @@ function NoneExperience() {
             src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/happily.png")}
           />
           <CardMobile
-            title="Front-End Developer Intern at Disecto"
+            title="Front-End Developer at Disecto"
             date="July. 2021​ to Aug. 2021​"
             text={[
               `Built the Front-End of a medical application.`,
@@ -60,7 +60,7 @@ function NoneExperience() {
             src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/Disecto.png")}
           />
           <CardMobile
-            title="Software Developer Intern at Nexstem Cortex BCI inc."
+            title="Software Developer at Nexstem Cortex BCI inc."
             date="Nov. 2020​ to Jan. 2021​"
             text={[
               `Built authentication system using NodeJS and Passport.`,
@@ -89,7 +89,7 @@ function NoneExperience() {
             src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/dsc.png")}
           />
           <CardMobile
-            title="Software Development Intern at Sunrun Motors"
+            title="Software Developer at Sunrun Motors"
             date="July 2020​ to Oct. 2020​​"
             text={[
               `Built a server to automate messaging through whatsapp using express.js and node.js.`,
