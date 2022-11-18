@@ -6,7 +6,7 @@ function CardDesktop(props) {
       <img src={props.src} alt="" className="CardDesktopImage"/>
       <div className="CardDesktopContent">
         <div className="CardDesktopHeading">{props.title}</div>
-        <div className="CardDesktopDate">{props.date}</div>
+        {/* <div className="CardDesktopDate">{props.date}</div> */}
         <div className="CardDesktopText">
             <ul>
             {props.text.map(function(point, index){

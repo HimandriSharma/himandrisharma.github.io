@@ -12,7 +12,7 @@ function Home() {
         <a
           className="navIcon"
           onClick={() => gaEventTracker("resume")}
-          href="https://drive.google.com/file/d/1UAVbtYNI1qz1kFOnxyzK-AlfNoDpBhTU/view"
+          href="https://drive.google.com/file/d/1xNZ8Ri-IHXX608io79UuXHk2I6uxyDRw/view?usp=sharing"
         >
           Resume
         </a>

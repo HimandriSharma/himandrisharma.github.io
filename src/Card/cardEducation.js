@@ -4,7 +4,7 @@ function CardEducation(props) {
   return (
     <div className="CardEducationStyle">
         <div className="CardEducationHeading">{props.title}</div>
-        <div className="CardEducationDate">{props.date}</div>
+        {/* <div className="CardEducationDate">{props.date}</div> */}
     </div>
   );
 }

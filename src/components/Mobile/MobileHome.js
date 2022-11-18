@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 function MobileHome() {
   return (
     <div className="MobileHomeStyle">
-        <div className="MobileNavbar"><a className="navIcon" href="https://drive.google.com/file/d/1UAVbtYNI1qz1kFOnxyzK-AlfNoDpBhTU/view"  >Resume</a>&nbsp;&nbsp;&nbsp;<Link className="navIcon" to="/About"  >About</Link>&nbsp;&nbsp;&nbsp;<Link className="navIcon" to="/Socials"  >Socials</Link> </div>
+        <div className="MobileNavbar"><a className="navIcon" href="https://drive.google.com/file/d/1xNZ8Ri-IHXX608io79UuXHk2I6uxyDRw/view?usp=sharing"  >Resume</a>&nbsp;&nbsp;&nbsp;<Link className="navIcon" to="/About"  >About</Link>&nbsp;&nbsp;&nbsp;<Link className="navIcon" to="/Socials"  >Socials</Link> </div>
         <img src={GameBoard} alt="" className="MobileHomeImage"/>
         <div className="MobileHomeText">
             <div className="MobileHomeSubText">Hello 👋🏼, I am</div>

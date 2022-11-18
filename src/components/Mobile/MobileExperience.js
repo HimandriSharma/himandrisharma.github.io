@@ -12,7 +12,7 @@ function MobileExperience() {
         <div className="MobileExperienceNavbar">
           <a
             className="navIcon"
-            href="https://drive.google.com/file/d/1UAVbtYNI1qz1kFOnxyzK-AlfNoDpBhTU/view"
+            href="https://drive.google.com/file/d/1xNZ8Ri-IHXX608io79UuXHk2I6uxyDRw/view?usp=sharing"
           >
             Resume
           </a>
@@ -30,9 +30,9 @@ function MobileExperience() {
           title="Front-End Developer at Ecocrumb"
           date="Apr. 2022 to present​"
           text={[
-            `Working on Front-end of an intelligent ESG reporting platform which automatically detects your records and save up time to find them again in the books.`,
-            `Workng with ReactJS, ant designs with LESS for styling.`,
-            `Load testing integration using k6 for maximum user capacity information.`,
+            `Worked with designers and backend developers to build a dashboard with complex UI components and data flow within the application.`,
+            `Delivered features with search, CRUD, dynamic tables, and accurate styling. Realized redundancy in front-end code and built common components.`,
+            `Received outstanding customer reviews on UI and styling on the front end and smooth interaction with features.`,
           ]}
           src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/ecocrumb.png")}
         />
@@ -40,6 +40,7 @@ function MobileExperience() {
           title="Front-End Development Intern at Happily"
           date="Aug. 2021​ to Oct. 2021​"
           text={[
+            `Worked with a team of front-end developers and marketing to set up the front end.`,
             `Incorporated Contentful within NextJS for smooth and quick content delivery on the Front-End.`,
             `Delivered content on Figma to the client for an easy and quick preview of the product.`,
             `Made ongoing application responsive and implemented image optimization.`,

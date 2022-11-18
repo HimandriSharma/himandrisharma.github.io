@@ -5,7 +5,7 @@ function CardMobile(props) {
     <div className="CardMobileStyle">
       <div className="CardMobileHeading">{props.title}</div>
       <img src={props.src} alt="" className="CardMobileImage"/>
-        <div className="CardMobileDate">{props.date}</div>
+        {/* <div className="CardMobileDate">{props.date}</div> */}
         <div className="CardMobileText">
             <ul>
             {props.text.map(function(point, index){
