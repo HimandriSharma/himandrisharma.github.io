@@ -12,7 +12,7 @@ function MobileExperience() {
         <div className="MobileExperienceNavbar">
           <a
             className="navIcon"
-            href="https://drive.google.com/file/d/1xNZ8Ri-IHXX608io79UuXHk2I6uxyDRw/view?usp=sharing"
+            href="https://drive.google.com/file/d/1pmIizHOAYWBaZSc3gkgZ5F3N4gXo_fbB/view?usp=sharing"
           >
             Resume
           </a>

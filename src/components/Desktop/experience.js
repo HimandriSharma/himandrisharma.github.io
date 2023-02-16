@@ -12,7 +12,7 @@ function Experience() {
         <div className="ExperienceNavbar">
           <a
             className="navIcon"
-            href="https://drive.google.com/file/d/1urKd9wxyOnSInjMzX4ucZeuDzVhTTOl4/view?usp=sharing"
+            href="https://drive.google.com/file/d/1pmIizHOAYWBaZSc3gkgZ5F3N4gXo_fbB/view?usp=sharing"
           >
             Resume
           </a>

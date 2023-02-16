@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom';
 function NoneSocials() {
   return (
     <div className="NoneSocialsStyle">
-      <div className="NoneNavbar"><a className="navIcon" href="https://drive.google.com/file/d/1xNZ8Ri-IHXX608io79UuXHk2I6uxyDRw/view?usp=sharing"  >Resume</a>&nbsp;&nbsp;&nbsp;<Link className="navIcon" to="/About"  >About</Link>&nbsp;&nbsp;&nbsp;<Link className="navIcon" to="/"  >Home</Link> </div>
+      <div className="NoneNavbar"><a className="navIcon" href="https://drive.google.com/file/d/1pmIizHOAYWBaZSc3gkgZ5F3N4gXo_fbB/view?usp=sharing"  >Resume</a>&nbsp;&nbsp;&nbsp;<Link className="navIcon" to="/About"  >About</Link>&nbsp;&nbsp;&nbsp;<Link className="navIcon" to="/"  >Home</Link> </div>
       <div className="NoneSocialsText">
         <div className="NoneSocialsSubText">Socials</div>
         <div className="NoneSocialsParaText">
