@@ -12,7 +12,7 @@ function MobileExperience() {
         <div className="MobileExperienceNavbar">
           <a
             className="navIcon"
-            href="https://drive.google.com/file/d/1pmIizHOAYWBaZSc3gkgZ5F3N4gXo_fbB/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ueZlkiE-17-scAGr5rY0Yk1ieeIKC8cX/view?usp=sharing"
           >
             Resume
           </a>
@@ -26,6 +26,16 @@ function MobileExperience() {
           </Link>{" "}
         </div>
         <div className="MobileExperienceHeading">Experience</div>
+        <CardMobile
+          title="Senior Front-End Developer at Add3"
+          date="Feb. 2023 to present​"
+          text={[
+            `Collaborated closely with Designers, Backend, and Blockchain Engineers to develop an end-to-end Web3 Product.`,
+            `Utilized React, TypeScript, Redux, Redux-Thunk, Websockets, react-i18next, and ChakraUI to ensure seamless feature functionality and provide an intuitive user experience.`,
+            `Managed a team of front-end developers, fostering clear communication and achievable deadlines between the Development team and Management.`,
+          ]}
+          src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/Add3.png")}
+        />
         <CardMobile
           title="Front-End Developer at Ecocrumb"
           date="Apr. 2022 to present​"
@@ -87,7 +97,7 @@ function MobileExperience() {
           ]}
           src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/dsc.png")}
         />
-        <CardMobile
+        {/* <CardMobile
           title="Software Developer at Sunrun Motors"
           date="July 2020​ to Oct. 2020​​"
           text={[
@@ -95,8 +105,8 @@ function MobileExperience() {
             `Worked on building a mobile application using Flutter to track delivery vehicles.`,
           ]}
           src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/sunrun.png")}
-        />
-        <CardMobile
+        /> */}
+        {/* <CardMobile
           title="Robotics Trainer at Ardubotics"
           date="July 2019​ to Jan. 2020​​"
           text={[
@@ -104,8 +114,8 @@ function MobileExperience() {
             `Worked for the development of students' technical knowledge and to give them exposure of the real world working of technical things that they're surrounded by and coding Arduino.`,
           ]}
           src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/Ardubotics.png")}
-        />
-        <CardMobile
+        /> */}
+        {/* <CardMobile
           title="Robotics Expert at WTM BVP"
           date="June 2019​ to June 2020​"
           text={[
@@ -123,7 +133,7 @@ function MobileExperience() {
             `Organized workshops on software and hardware fundamentals.`,
           ]}
           src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/dsc.png")}
-        />
+        /> */}
         <Projects />
         <Skills />
         <Education />

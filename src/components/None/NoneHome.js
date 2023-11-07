@@ -8,7 +8,7 @@ function NoneHome() {
       <div className="NoneNavbar">
         <a
           className="navIcon"
-          href="https://drive.google.com/file/d/1pmIizHOAYWBaZSc3gkgZ5F3N4gXo_fbB/view?usp=sharing"
+          href="https://drive.google.com/file/d/1ueZlkiE-17-scAGr5rY0Yk1ieeIKC8cX/view?usp=sharing"
         >
           Resume
         </a>

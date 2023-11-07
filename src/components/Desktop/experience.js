@@ -12,7 +12,7 @@ function Experience() {
         <div className="ExperienceNavbar">
           <a
             className="navIcon"
-            href="https://drive.google.com/file/d/1pmIizHOAYWBaZSc3gkgZ5F3N4gXo_fbB/view?usp=sharing"
+            href="https://drive.google.com/file/d/1ueZlkiE-17-scAGr5rY0Yk1ieeIKC8cX/view?usp=sharing"
           >
             Resume
           </a>
@@ -27,8 +27,18 @@ function Experience() {
         </div>
         <div className="ExperienceHeading">Experience</div>
         <CardDesktop
+          title="Senior Front-End Developer at Add3"
+          date="Feb. 2023 to present​"
+          text={[
+            `Collaborated closely with Designers, Backend, and Blockchain Engineers to develop an end-to-end Web3 Product.`,
+            `Utilized React, TypeScript, Redux, Redux-Thunk, Websockets, react-i18next, and ChakraUI to ensure seamless feature functionality and provide an intuitive user experience.`,
+            `Managed a team of front-end developers, fostering clear communication and achievable deadlines between the Development team and Management.`,
+          ]}
+          src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/Add3.png")}
+        />
+        <CardDesktop
           title="Front-End Developer at Ecocrumb"
-          date="Apr. 2022 to present​"
+          date="Jan. 2022 to Jan. 2023"
           text={[
             `Worked with designers and backend developers to build a dashboard with complex UI components and data flow within the application.`,
             `Delivered features with search, CRUD, dynamic tables, and accurate styling. Realized redundancy in front-end code and built common components.`,
@@ -40,10 +50,10 @@ function Experience() {
           title="Front-End Developer at Happily"
           date="Aug. 2021​ to Oct. 2021​"
           text={[
-            `Worked with a team of front-end developers and marketing to set up the front end.`,
-            `Incorporated Contentful within NextJS for smooth and quick content delivery on the Front-End.`,
-            `Delivered content on Figma to client for easy and quick preview of product.`,
-            `Made ongoing application responsive and implemented image optimization.`,
+            `Built feature-rich dashboards using ReactJS, Redux, Redux-thunk, and AntD with LESS.`,
+            `Integrated Cypress for e2e testing and component testing.`,
+            `Reduced build time by 40% using Esbuild with Webpack.`,
+            `Designed and restructured the user interface to improve user efficiency by 50%.`,
           ]}
           src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/happily.png")}
         />
@@ -87,7 +97,7 @@ function Experience() {
           ]}
           src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/dsc.png")}
         />
-        <CardDesktop
+        {/* <CardDesktop
           title="Software Developer at Sunrun Motors"
           date="July 2020​ to Oct. 2020​​"
           text={[
@@ -123,7 +133,7 @@ function Experience() {
             `Organized workshops on software and hardware fundamentals.`,
           ]}
           src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/dsc.png")}
-        />
+        /> */}
         <Projects />
         <Skills />
         <Education />
