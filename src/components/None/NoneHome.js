@@ -29,14 +29,14 @@ function NoneHome() {
           <br /> through tech communities and learn new tech
           <br /> stacks to build cool things!
         </div>
-        <a
+        {/* <a
           href="https://himandrisharma.tk/landing-on-three/"
           target="_blank"
           rel="noreferrer"
           className="blink_me HomeParaText"
         >
           checkout the latest threeJS project by clicking here.
-        </a>
+        </a> */}
       </div>
     </div>
   );

@@ -2,6 +2,7 @@
 
 .NoneHomeStyle{
   text-align: center;
+  overflow: hidden;
 }
 .NoneText{
   min-height: 100vh;

@@ -34,7 +34,7 @@ function Home() {
           <br /> through tech communities and learn new tech
           <br /> stacks to build cool things!
         </div>
-        <a
+        {/* <a
           href="https://himandrisharma.tk/landing-on-three/"
           target="_blank"
           rel="noreferrer"
@@ -42,7 +42,7 @@ function Home() {
           style={{ paddingLeft: "2rem" }}
         >
           checkout the latest threeJS project by clicking here.
-        </a>
+        </a> */}
       </div>
     </div>
   );
