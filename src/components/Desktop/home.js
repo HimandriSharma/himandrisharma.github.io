@@ -16,7 +16,7 @@ function Home() {
         >
           Resume
         </a>
-        &nbsp;&nbsp;&nbsp;
+        // &nbsp;&nbsp;&nbsp;
         // <Link className="navIcon" to="/About">
         //   About
         // </Link>
