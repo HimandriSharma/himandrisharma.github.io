@@ -12,10 +12,10 @@ function NoneHome() {
         >
           Resume
         </a>
-        &nbsp;&nbsp;&nbsp;
-        <Link className="navIcon" to="/About">
-          About
-        </Link>
+        // &nbsp;&nbsp;&nbsp;
+        // <Link className="navIcon" to="/About">
+        //   About
+        // </Link>
         &nbsp;&nbsp;&nbsp;
         <Link className="navIcon" to="/Socials">
           Socials
