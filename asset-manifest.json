@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e4e9207c.css",
-    "main.js": "/static/js/main.fc63a231.js",
+    "main.css": "/static/css/main.1bdf5225.css",
+    "main.js": "/static/js/main.9432c234.js",
     "static/media/MyImage.png": "/static/media/MyImage.4478debf88f030dd43aa.png",
     "static/media/MyImageRectangle.jpg": "/static/media/MyImageRectangle.8847eab950c722b287b6.jpg",
     "static/media/Gmail.png": "/static/media/Gmail.f981a1e48f99c71d8ef1.png",
@@ -19,7 +19,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.e4e9207c.css",
-    "static/js/main.fc63a231.js"
+    "static/css/main.1bdf5225.css",
+    "static/js/main.9432c234.js"
   ]
 }
