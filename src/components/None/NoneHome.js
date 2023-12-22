@@ -1,6 +1,6 @@
 import "./NoneHome.css";
 import Title from "../../AnimatedText/Title";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function NoneHome() {
   return (
@@ -8,18 +8,18 @@ function NoneHome() {
       <div className="NoneNavbar">
         <a
           className="navIcon"
-          href="https://drive.google.com/file/d/1ueZlkiE-17-scAGr5rY0Yk1ieeIKC8cX/view?usp=sharing"
+          href="https://drive.google.com/file/d/111e4q2Gk6QZ7aaWVU7s4EjepIyzrVF7Z/view?usp=sharing"
         >
           Resume
         </a>
-        // &nbsp;&nbsp;&nbsp;
-        // <Link className="navIcon" to="/About">
-        //   About
-        // </Link>
-        &nbsp;&nbsp;&nbsp;
+         {/* &nbsp;&nbsp;&nbsp;
+         <Link className="navIcon" to="/About">
+           About
+        </Link> */}
+        {/* &nbsp;&nbsp;&nbsp;
         <Link className="navIcon" to="/Socials">
           Socials
-        </Link>{" "}
+        </Link>{" "} */}
       </div>
       <div className="NoneText">
         <div className="NoneHomeSubText">Hello 👋🏼, I am</div>

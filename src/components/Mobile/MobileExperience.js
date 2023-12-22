@@ -12,7 +12,7 @@ function MobileExperience() {
         <div className="MobileExperienceNavbar">
           <a
             className="navIcon"
-            href="https://drive.google.com/file/d/1ueZlkiE-17-scAGr5rY0Yk1ieeIKC8cX/view?usp=sharing"
+            href="https://drive.google.com/file/d/111e4q2Gk6QZ7aaWVU7s4EjepIyzrVF7Z/view?usp=sharing"
           >
             Resume
           </a>
@@ -20,10 +20,10 @@ function MobileExperience() {
           <Link className="navIcon" to="/">
             Home
           </Link>
-          &nbsp;&nbsp;&nbsp;
+          {/* &nbsp;&nbsp;&nbsp;
           <Link className="navIcon" to="/Socials">
             Socials
-          </Link>{" "}
+          </Link>{" "} */}
         </div>
         <div className="MobileExperienceHeading">Experience</div>
         <CardMobile
