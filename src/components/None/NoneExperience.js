@@ -28,17 +28,17 @@ function NoneExperience() {
         <div className="NoneExperienceContent">
           <div className="NoneExperienceHeading">Experience</div>
           <CardMobile
-            title="Senior Front-End Developer at Add3"
+            title="Senior Software Engineer at Add3"
             date="Feb. 2023 to present​"
             text={[
               `Collaborated closely with Designers, Backend, and Blockchain Engineers to develop an end-to-end Web3 Product.`,
               `Utilized React, TypeScript, Redux, Redux-Thunk, Websockets, react-i18next, and ChakraUI to ensure seamless feature functionality and provide an intuitive user experience.`,
-              `Managed a team of front-end developers, fostering clear communication and achievable deadlines between the Development team and Management.`,
+              `Managed a team of Software Engineers, fostering clear communication and achievable deadlines between the Development team and Management.`,
             ]}
             src={"Add3.png"}
           />
           <CardMobile
-            title="Front-End Developer at Ecocrumb"
+            title="Software Engineer at Ecocrumb"
             date="Apr. 2022 to present​"
             text={[
               `Worked with designers and backend developers to build a dashboard with complex UI components and data flow within the application.`,
@@ -48,10 +48,10 @@ function NoneExperience() {
             src={"ecocrumb.png"}
           />
           <CardMobile
-            title="Front-End Developer at Happily"
+            title="Software Engineer at Happily"
             date="Aug. 2021​ to Oct. 2021​"
             text={[
-              `Worked with a team of front-end developers and marketing to set up the front end.`,
+              `Worked with a team of Software Engineers and marketing to set up the front end.`,
               `Incorporated Contentful within NextJS for smooth and quick content delivery on the Front-End.`,
               `Delivered content on Figma to the client for an easy and quick preview of the product.`,
               `Made ongoing application responsive and implemented image optimization.`,
@@ -59,7 +59,7 @@ function NoneExperience() {
             src={"happily.png"}
           />
           <CardMobile
-            title="Front-End Developer at Disecto"
+            title="Software Engineer at Disecto"
             date="July. 2021​ to Aug. 2021​"
             text={[
               `Built the Front-End of a medical application.`,

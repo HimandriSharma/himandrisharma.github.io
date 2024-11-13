@@ -27,17 +27,17 @@ function Experience() {
         </div>
         <div className="ExperienceHeading">Experience</div>
         <CardDesktop
-          title="Senior Front-End Developer at Add3"
+          title="Senior Software Engineer at Add3"
           date="Feb. 2023 to present​"
           text={[
             `Collaborated closely with Designers, Backend, and Blockchain Engineers to develop an end-to-end Web3 Product.`,
             `Utilized React, TypeScript, Redux, Redux-Thunk, Websockets, react-i18next, and ChakraUI to ensure seamless feature functionality and provide an intuitive user experience.`,
-            `Managed a team of front-end developers, fostering clear communication and achievable deadlines between the Development team and Management.`,
+            `Managed a team of Software Engineers, fostering clear communication and achievable deadlines between the Development team and Management.`,
           ]}
           src={"Add3.png"}
         />
         <CardDesktop
-          title="Front-End Developer at Ecocrumb"
+          title="Software Engineer at Ecocrumb"
           date="Jan. 2022 to Jan. 2023"
           text={[
             `Worked with designers and backend developers to build a dashboard with complex UI components and data flow within the application.`,
@@ -47,7 +47,7 @@ function Experience() {
           src={"ecocrumb.png"}
         />
         <CardDesktop
-          title="Front-End Developer at Happily"
+          title="Software Engineer at Happily"
           date="Aug. 2021​ to Oct. 2021​"
           text={[
             `Built feature-rich dashboards using ReactJS, Redux, Redux-thunk, and AntD with LESS.`,
@@ -58,7 +58,7 @@ function Experience() {
           src={"happily.png"}
         />
         <CardDesktop
-          title="Front-End Developer at Disecto"
+          title="Software Engineer at Disecto"
           date="July. 2021​ to Aug. 2021​"
           text={[
             `Built the Front-End of a medical application.`,

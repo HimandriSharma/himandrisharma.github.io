@@ -21,7 +21,7 @@ function Home() {
         <div className="HomeSubText">Hello 👋🏼, I am</div>
         <Title text="Himandri" />
         <div className="HomeParaText">
-          I am a Front-End Developer who loves connecting with people
+          I am a Software Engineer who loves connecting with people
           <br /> through tech communities and learn new tech
           <br /> stacks to build cool things!
         </div>
