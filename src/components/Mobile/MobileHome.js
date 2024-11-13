@@ -9,7 +9,7 @@ function MobileHome() {
       <div className="MobileNavbar">
         <a
           className="navIcon"
-          href="https://drive.google.com/file/d/111e4q2Gk6QZ7aaWVU7s4EjepIyzrVF7Z/view?usp=sharing"
+          href="https://drive.google.com/file/d/1uYc3pVkgKfLgkRL967LuVzNYsWfzNe5a/view?usp=sharing"
         >
           Resume
         </a>
@@ -21,8 +21,8 @@ function MobileHome() {
         <div className="MobileHomeSubText">Hello 👋🏼, I am</div>
         <Title text="Himandri" />
         <div className="MobileHomeParaText">
-          I am a Software Engineer who loves connecting <br /> with people
-          through tech communities and learn
+          I am a Software Engineer who loves connecting <br /> with people and
+          learn
           <br /> new tech stacks to build cool things!
         </div>
       </div>

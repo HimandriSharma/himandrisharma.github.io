@@ -12,7 +12,7 @@ function NoneExperience() {
         <div className="NoneNavbar">
           <a
             className="navIcon"
-            href="https://drive.google.com/file/d/111e4q2Gk6QZ7aaWVU7s4EjepIyzrVF7Z/view?usp=sharing"
+            href="https://drive.google.com/file/d/1uYc3pVkgKfLgkRL967LuVzNYsWfzNe5a/view?usp=sharing"
           >
             Resume
           </a>

@@ -11,7 +11,7 @@ function Home() {
         <a
           className="navIcon"
           onClick={() => gaEventTracker("resume")}
-          href="https://drive.google.com/file/d/111e4q2Gk6QZ7aaWVU7s4EjepIyzrVF7Z/view?usp=sharing"
+          href="https://drive.google.com/file/d/1uYc3pVkgKfLgkRL967LuVzNYsWfzNe5a/view?usp=sharing"
         >
           Resume
         </a>
@@ -22,8 +22,7 @@ function Home() {
         <Title text="Himandri" />
         <div className="HomeParaText">
           I am a Software Engineer who loves connecting with people
-          <br /> through tech communities and learn new tech
-          <br /> stacks to build cool things!
+          <br /> and learn new tech stacks to build cool things!
         </div>
       </div>
     </div>
