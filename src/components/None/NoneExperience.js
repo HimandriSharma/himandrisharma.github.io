@@ -35,7 +35,7 @@ function NoneExperience() {
               `Utilized React, TypeScript, Redux, Redux-Thunk, Websockets, react-i18next, and ChakraUI to ensure seamless feature functionality and provide an intuitive user experience.`,
               `Managed a team of front-end developers, fostering clear communication and achievable deadlines between the Development team and Management.`,
             ]}
-            src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/Add3.png")}
+            src={"Add3.png"}
           />
           <CardMobile
             title="Front-End Developer at Ecocrumb"
@@ -45,7 +45,7 @@ function NoneExperience() {
               `Delivered features with search, CRUD, dynamic tables, and accurate styling. Realized redundancy in front-end code and built common components.`,
               `Received outstanding customer reviews on UI and styling on the front end and smooth interaction with features.`,
             ]}
-            src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/ecocrumb.png")}
+            src={"ecocrumb.png"}
           />
           <CardMobile
             title="Front-End Developer at Happily"
@@ -56,7 +56,7 @@ function NoneExperience() {
               `Delivered content on Figma to the client for an easy and quick preview of the product.`,
               `Made ongoing application responsive and implemented image optimization.`,
             ]}
-            src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/happily.png")}
+            src={"happily.png"}
           />
           <CardMobile
             title="Front-End Developer at Disecto"
@@ -67,7 +67,7 @@ function NoneExperience() {
               `Used ReactJS and ChakraUI for complex design implementation on the front-end.`,
               `Managed data flows within the application using Redux.`,
             ]}
-            src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/Disecto.png")}
+            src={"Disecto.png"}
           />
           <CardMobile
             title="Software Developer at Nexstem Cortex BCI inc."
@@ -78,7 +78,7 @@ function NoneExperience() {
               `Deployed application using AWS Amplify.`,
               `Worked on integration of Flutter with esp32 via Bluetooth.`,
             ]}
-            src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/cortexbci.png")}
+            src={"cortexbci.png"}
           />
           <CardMobile
             title="Google Cloud Facilitator"
@@ -87,7 +87,7 @@ function NoneExperience() {
               `Got trained under Developer Student Clubs(Powered by Google Developers) and Qwiklabs.`,
               `Organized 5+ Cloud workshops and gave hands-on with Google Cloud Platform.`,
             ]}
-            src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/gcp.png")}
+            src={"gcp.png"}
           />
           <CardMobile
             title="Lead at DSC BVP"
@@ -96,7 +96,7 @@ function NoneExperience() {
               `Worked as a community manager on campus chosen via Google Developer Student Clubs.`,
               `Organized 15 + workshops with hands-on sessions on software and hardware fundamentals.`,
             ]}
-            src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/dsc.png")}
+            src={"dsc.png"}
           />
           {/* <CardMobile
             title="Software Developer at Sunrun Motors"
@@ -105,7 +105,7 @@ function NoneExperience() {
               `Built a server to automate messaging through whatsapp using express.js and node.js.`,
               `Worked on building a mobile application using Flutter to track delivery vehicles.`,
             ]}
-            src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/sunrun.png")}
+            src={"sunrun.png"}
           />
           <CardMobile
             title="Robotics Trainer at Ardubotics"
@@ -114,7 +114,7 @@ function NoneExperience() {
               `Robotics Trainer at Amity International School for primary grade students.`,
               `Worked for the development of students' technical knowledge and to give them exposure of the real world working of technical things that they're surrounded by and coding Arduino.`,
             ]}
-            src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/Ardubotics.png")}
+            src={"Ardubotics.png"}
           /> */}
           {/* <CardMobile
             title="Robotics Expert at WTM BVP"
@@ -123,7 +123,7 @@ function NoneExperience() {
               `Worked for the representation of women community on campus and to promote more women.`,
               `Organized women-centric workshops on software and hardware fundamentals.`,
             ]}
-            src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/wtmbvp.png")}
+            src={"wtmbvp.png"}
           /> */}
           {/* <CardMobile
             title="Executive, RNIS-H at DSC BVP"
@@ -133,7 +133,7 @@ function NoneExperience() {
               `Worked on the development of hardware projects.`,
               `Organized workshops on software and hardware fundamentals.`,
             ]}
-            src={require("/home/himandri/Dev/React/himandrisharma.github.io/src/images/dsc.png")}
+            src={"dsc.png"}
           /> */}
         </div>
         <Projects />
