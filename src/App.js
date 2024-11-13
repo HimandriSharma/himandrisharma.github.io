@@ -10,7 +10,7 @@ const TRACKING_ID = "UA-163181774-1";
 ReactGA.initialize(TRACKING_ID);
 function App() {
   const ratio = useWindowDimensions();
-  const isDesktop = ratio > 1.67;
+  const isDesktop = ratio > 1.8;
   const isMobile = ratio < 0.88;
   return (
     <div className="App">
